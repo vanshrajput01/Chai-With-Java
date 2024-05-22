@@ -11,6 +11,8 @@ public class UserInput{
         int num2 = s.nextInt();
         System.out.println("Your Entered value is  " + num1);
         System.out.println("Your Entered Second number is " + num2);
+        int results = num1 + num2;
+        System.out.println("Result of "+ num1 + " and "+ num2 + "  is " + results);
 
 
     }
