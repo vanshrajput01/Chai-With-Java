@@ -18,14 +18,5 @@ public class DataTypes{
 
         double doubleNum1= 123.45;
 
-        
-
-
-
-
-
-
-
-
     } 
 }
