@@ -25,6 +25,23 @@ public class FirstsProgram{
         System.out.println(++num2); //like value of num2 is 2 that give me value 3 beacause this increase/decrese the value firstly and print it. 
         System.out.println(--num2);
 
+        // Assignment Operator
+        System.out.println("Assignment Operator in java");
+        System.out.println(num1 += 2); // Means that num1 = num1 + 2;
+        System.out.println(num2 -= 2); // Means that num2 = num2 - 2;
+
+        // Relational Operators
+
+        System.out.println("Relational Operators in java"); 
+        System.out.println(2 < 3);
+        System.out.println(1 >= 1);
+        System.out.println(!true);
+
+        
+
+
+
+
     
 
 
