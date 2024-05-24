@@ -24,3 +24,5 @@ public class WhileLoopP1{
 
     }
 }
+
+
