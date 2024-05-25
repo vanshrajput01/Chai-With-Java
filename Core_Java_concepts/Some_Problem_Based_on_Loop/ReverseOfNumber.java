@@ -16,10 +16,6 @@ public class ReverseOfNumber{
             tempValue1 = tempValue % 10;
             addValue = (addValue * 10) + tempValue1;
             tempValue = tempValue / 10;
-
-
-
-
         }
         System.out.println(addValue);
 
