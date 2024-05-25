@@ -19,15 +19,5 @@ public class SumOfDigits{
         }
         
          System.out.println("your entered number is " + enteredValue + " sum of digits is:- " + sumOfNumbers);
-
-
- 
-    
-
-
-
-
-
-
     }
 }
