@@ -1,4 +1,4 @@
-// Example 01 :- rectangluar Pattern 
+// Example 01 :- rectangular Pattern 
 
 import java.util.Scanner;
 
