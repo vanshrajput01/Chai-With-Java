@@ -1,4 +1,4 @@
-// numeric pattern problem 02 :- 
+// numeric pattern problem 03 :- 
 // Pattern is :- 
 /* 
 1
@@ -9,10 +9,10 @@
 
 import java.util.Scanner;
 
-public class  NumericPatternProblem02{
+public class  NumericPatternProblem03{
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
-        System.out.println("Numeric pattern Problem 02!!");
+        System.out.println("Numeric pattern Problem 03!!");
         System.out.print("Enter how many rows :- ");
         int r = s.nextInt();
 
