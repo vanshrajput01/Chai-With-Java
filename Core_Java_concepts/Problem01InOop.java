@@ -1,6 +1,4 @@
 // How to create class and object 
-
-
 public class Person{
     int age = 30;
     public static void main(String[] args){
