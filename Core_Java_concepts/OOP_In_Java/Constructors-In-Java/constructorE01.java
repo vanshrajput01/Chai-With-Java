@@ -14,7 +14,7 @@ public class constructorE01{
         System.out.println("this is print method!!");
     }
     public static void main(String[] args) {
-        constructorE01 objE01 = new constructorE01(); // here call the defaul constructor in java
+        constructorE01 objE01 = new constructorE01(); // here call the default constructor in java
         objE01.printMessage();
 
        
