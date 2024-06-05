@@ -8,7 +8,7 @@ class Student{
     }
 
     
-    // cop constructor
+    // copy constructor
     Student(Student s){
         this.name = s.name;
         this.id = s.id;
