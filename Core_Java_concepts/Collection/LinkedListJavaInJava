@@ -1,0 +1,43 @@
+
+import java.util.*;
+// LinkedList collection in Java  
+
+
+
+public class ArrayCollectionInJava{
+    public static void main(String[] args) {
+        // declare LinkedList
+
+        LinkedList<Integer> integerNumbers = new LinkedList<>();
+
+        integerNumbers.add(100);
+        integerNumbers.add(200);
+        integerNumbers.add(300);
+        integerNumbers.add(400);
+
+
+
+
+
+        // these are method to traversing LinedList in Java
+            integerNumbers.forEach(ele->{
+            System.out.println(ele);
+        });
+
+        Iterator objIterator = integerNumbers.iterator();
+
+        while(objIterator.hasNext()){
+            System.out.print(objIterator.next());
+        }
+
+
+        ListIterator objListIterator = integerNumbers.listIterator();
+
+        while (objListIterator.hasNext()) {
+            System.out.println(objListIterator.next());
+            
+            
+        }
+
+}
+}
