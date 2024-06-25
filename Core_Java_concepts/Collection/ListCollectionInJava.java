@@ -41,6 +41,12 @@ public class ArrayCollectionInJava{
 
         } 
 
+        // Way 04 using forEach method
+
+        list01.forEach(e->{
+            System.out.println(e);
+        });
+
         
 
 
