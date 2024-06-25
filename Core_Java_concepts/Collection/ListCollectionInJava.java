@@ -20,6 +20,17 @@ public class ArrayCollectionInJava{
             System.out.println(ele);
         }
 
+
+        // way 02 :- Using iterator object
+        // this method traverse Artray List elements in forword direction
+
+        Iterator<String> objIterator =  list01.iterator();
+
+        while(objIterator.hasNext()){
+            System.out.println(objIterator.next());
+
+        }
+
         
 
 
