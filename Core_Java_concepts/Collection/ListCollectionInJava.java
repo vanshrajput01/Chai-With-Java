@@ -31,6 +31,16 @@ public class ArrayCollectionInJava{
 
         }
 
+
+        
+        // Way 03 :- using Listiterator
+
+        ListIterator objListIterator = list01.listIterator(list01.size());
+        while(objListIterator.hasPrevious()){
+            System.out.println(objListIterator.previous());
+
+        } 
+
         
 
 
