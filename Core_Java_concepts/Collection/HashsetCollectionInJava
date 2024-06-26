@@ -16,6 +16,20 @@ public class SetCollectionInJava{
         numberValues.add(103);
         numberValues.add(106);
 
+        numberValues.forEach(ele->{
+            System.out.println(ele);
+        });
+
+        for(int number : numberValues){
+            System.out.println(number);
+        }
+
+        Iterator objIterator = numberValues.iterator();
+        while(objIterator.hasNext()){
+            System.out.println(objIterator.next());
+
+        } 
+
 
 
         
