@@ -43,6 +43,20 @@ public class ArrayCollectionInJava{
 
         }
 
+                // traversing vector using vector Enumeration method in java
+
+        Enumeration objEnumeration = Collections.enumeration(animalNames);
+
+        while(objEnumeration.hasMoreElements()){
+            System.out.println(objEnumeration.nextElement());
+        }
+
+        Enumeration obj01Enumeration = animalNames.elements();
+
+        while(obj01Enumeration.hasMoreElements()){
+            System.out.println(obj01Enumeration.nextElement());
+        }
+
         
 
  }
