@@ -1,0 +1,25 @@
+
+import java.util.*;
+
+// Hash Map in java
+
+public class MapCollectionInJava{
+    public static void main(String[] args) {
+        LinkedHashMap <String,String> namesHashMap = new LinkedHashMap<>();
+
+        namesHashMap.put("name01", "Dogs");
+        namesHashMap.put("name02", "Deer");
+        namesHashMap.put("name03", "Cats");
+        namesHashMap.put("name04", "Pats");
+
+       namesHashMap.forEach((key,value)->{
+        System.out.println(key);
+        System.out.println(value);
+
+       });
+    
+
+        
+
+    }
+}
