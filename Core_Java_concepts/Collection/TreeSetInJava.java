@@ -22,6 +22,15 @@ public class SetCollectionInJava{
 
         System.out.println(numberValues01);
 
+        // Traversing Tree set 
+
+        Iterator objIterator = numberValues01.iterator();
+
+        while(objIterator.hasNext()){
+            System.out.println(objIterator.next());
+
+        }
+
 
         
 
