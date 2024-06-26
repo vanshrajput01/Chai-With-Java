@@ -14,6 +14,12 @@ public class ArrayCollectionInJava{
         animalNames.add("Dogs");
         animalNames.add("deer");
 
+        // Traversing Vector using foreach methid in java
+
+        animalNames.forEach(ele->{
+            System.out.print(ele);
+        });
+
         
 
  }
