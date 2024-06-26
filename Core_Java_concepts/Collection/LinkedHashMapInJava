@@ -17,6 +17,22 @@ public class MapCollectionInJava{
         System.out.println(value);
 
        });
+
+        // how to create HashMap
+
+        HashMap<String,Integer> numberHashMap = new HashMap<>();
+
+        numberHashMap.put("num1", 101);
+        numberHashMap.put("num2", 106);
+        numberHashMap.put("num3", 105);
+        numberHashMap.put("num4", 102);
+
+        numberHashMap.forEach((key,value)->{
+            System.out.println(key + " " + value);
+        });
+
+
+    
     
 
         
