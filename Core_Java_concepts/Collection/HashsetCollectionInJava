@@ -1,0 +1,28 @@
+import java.util.*;
+
+// Hashset collection in java 
+public class SetCollectionInJava{
+    public static void main(String[] args) {
+
+        // In Hashset collection duplicate are not allowed 
+        HashSet<Integer> numberValues = new HashSet<>();
+
+        numberValues.add(101);
+        numberValues.add(102);
+        numberValues.add(103);
+        numberValues.add(104);
+        numberValues.add(101);
+        numberValues.add(102);
+        numberValues.add(103);
+        numberValues.add(106);
+
+
+
+        
+
+
+
+
+        
+    }
+}
