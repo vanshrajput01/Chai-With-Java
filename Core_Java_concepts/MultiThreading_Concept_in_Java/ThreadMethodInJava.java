@@ -29,3 +29,19 @@ public class ThreadInJava{
 
 
 }
+
+
+// How to get name of currently running thread
+
+
+public class ThreadInJava{
+
+    public static void main(String[] args){
+
+
+        Thread t = Thread.currentThread();
+        System.out.println(t.getName());
+    }
+
+
+}
