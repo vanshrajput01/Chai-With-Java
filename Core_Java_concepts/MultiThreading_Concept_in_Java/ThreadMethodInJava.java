@@ -45,3 +45,24 @@ public class ThreadInJava{
 
 
 }
+
+
+// How to set or change name of currently running thread;
+
+
+public class ThreadInJava{
+
+    public static void main(String[] args){
+
+        
+
+        Thread t = Thread.currentThread();
+        System.out.println(t.getName());
+        t.setName("MainThread");
+        System.out.println(t.getName());
+
+
+    }
+
+
+}
