@@ -66,3 +66,28 @@ public class ThreadInJava{
 
 
 }
+
+
+// Sleep method 
+public class ThreadInJava{
+
+    public static void main(String[] args){
+
+        try {
+
+            Thread.sleep(2000);
+            System.out.println("Program run SucessFully!!");
+            
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+        
+
+
+
+
+    }
+
+
+}
